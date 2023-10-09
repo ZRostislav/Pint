@@ -1,0 +1,143 @@
+@media all and (min-width: 1600px) and (max-width: 1680px) {
+  .header {
+    zoom: 90%;
+  }
+  .content {
+    zoom: 90%;
+  }
+  .footer-img-youtube {
+    left: 91%;
+  }
+  .footer-img-telegram {
+    left: 91%;
+  }
+  .footer-img-facebok {
+    left: 91%;
+  }
+}
+
+@media all and (min-width: 1699px) and (max-width: 1799px) {
+  .header {
+    zoom: 94%;
+  }
+  .content {
+    zoom: 94%;
+  }
+  .footer-img-youtube {
+    left: 91%;
+  }
+  .footer-img-telegram {
+    left: 91%;
+  }
+  .footer-img-facebok {
+    left: 91%;
+  }
+}
+
+@media all and (min-width: 1536px) and (max-width: 1599px) {
+  .header {
+    zoom: 84%;
+  }
+  .content {
+    zoom: 84%;
+  }
+  .footer-img-youtube {
+    left: 90%;
+  }
+  .footer-img-telegram {
+    left: 90%;
+  }
+  .footer-img-facebok {
+    left: 90%;
+  }
+}
+
+@media all and (min-width: 1440px) and (max-width: 1535px) {
+  .header {
+    zoom: 80%;
+  }
+  .content {
+    zoom: 80%;
+  }
+  .footer-img-youtube {
+    left: 90%;
+  }
+  .footer-img-telegram {
+    left: 90%;
+  }
+  .footer-img-facebok {
+    left: 90%;
+  }
+}
+
+@media all and (min-width: 1380px) and (max-width: 1439px) {
+  .header {
+    zoom: 75%;
+  }
+  .content {
+    zoom: 75%;
+  }
+  .footer-img-youtube {
+    left: 90%;
+  }
+  .footer-img-telegram {
+    left: 90%;
+  }
+  .footer-img-facebok {
+    left: 90%;
+  }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1379px) {
+  .header {
+    zoom: 72%;
+  }
+  .content {
+    zoom: 72%;
+  }
+  .footer-img-youtube {
+    left: 90%;
+  }
+  .footer-img-telegram {
+    left: 90%;
+  }
+  .footer-img-facebok {
+    left: 90%;
+  }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1279px) {
+  .header {
+    zoom: 67%;
+  }
+  .content {
+    zoom: 67%;
+  }
+  .footer-img-youtube {
+    left: 89%;
+  }
+  .footer-img-telegram {
+    left: 89%;
+  }
+  .footer-img-facebok {
+    left: 89%;
+  }
+}
+
+@media all and (min-width: 1152px) and (max-width: 1199px) {
+  .header {
+    zoom: 63%;
+  }
+  .content {
+    zoom: 63%;
+  }
+  .footer-img-youtube {
+    left: 88%;
+  }
+  .footer-img-telegram {
+    left: 88%;
+  }
+  .footer-img-facebok {
+    left: 88%;
+  }
+}

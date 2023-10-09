@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Хост: 127.0.0.1:3306
+- Время создания: Май 03 2022 г., 10:39
+- Версия сервера: 5.7.33-log
+- Версия PHP: 7.1.33
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="tapebasepint" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="comments">
+                CREATE TABLE `comments` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `product_id` int(11) DEFAULT NULL,
+                  `body` text,
+                  PRIMARY KEY (`id`),
+                  KEY `product_id` (`product_id`),
+                  CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `comments` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="news">
+                CREATE TABLE `news` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `data` date DEFAULT NULL,
+                  `title` varchar(225) DEFAULT NULL,
+                  `text` varchar(225) DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'tapebasepint'
+    -->
+    <database name="tapebasepint">
+        <!-- Таблица comments -->
+        <table name="comments">
+            <column name="id">1</column>
+            <column name="product_id">1</column>
+            <column name="body">1</column>
+        </table>
+        <!-- Таблица news -->
+        <table name="news">
+            <column name="id">1</column>
+            <column name="data">2001-01-20</column>
+            <column name="title">1111</column>
+            <column name="text">1111111111111111111111</column>
+        </table>
+        <table name="news">
+            <column name="id">2</column>
+            <column name="data">2001-01-20</column>
+            <column name="title">2222</column>
+            <column name="text">2222222222222222222</column>
+        </table>
+        <table name="news">
+            <column name="id">3</column>
+            <column name="data">2003-03-20</column>
+            <column name="title">3333</column>
+            <column name="text">3333333333</column>
+        </table>
+    </database>
+</pma_xml_export>
